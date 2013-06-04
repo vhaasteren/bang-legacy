@@ -1,9 +1,12 @@
 *.o
+*.lo
+*.la
 *~
 *.swp
 .libs
 autom4te.cache
 aclocal.m4
+config.guess
 config.h
 config.h.in
 config.log
@@ -20,6 +23,8 @@ missing
 stamp-h*
 src/Makefile
 src/Makefile.in
+src/.deps
+src/tools/.deps
 src/tools/combinemcmcdatafiles
 src/tools/dat2txt
 src/tools/generateparameters
