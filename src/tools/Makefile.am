@@ -1,0 +1,24 @@
+noinst_PROGRAMS = processplots normalize combinemcmcdatafiles dat2txt multiplymcmcplots scatterensemble multiplyplots showoptimum generateparameters parse_tempo2_par processensembleresults1d
+
+processplots_SOURCES = processplots.cpp
+processplots_LDFLAGS =
+normalize_SOURCES = normalize.cpp
+normalize_LDFLAGS = 
+combinemcmcdatafiles_SOURCES = combinemcmcdatafiles.cpp
+combinemcmcdatafiles_LDFLAGS =
+dat2txt_SOURCES = dat2txt.cpp
+dat2txt_LDFLAGS =
+multiplymcmcplots_SOURCES = multiplymcmcplots.cpp
+multiplymcmcplots_LDFLAGS =
+scatterensemble_SOURCES = scatterensemble.cpp
+scatterensemble_LDFLAGS =
+multiplyplots_SOURCES = multiplyplots.cpp
+multiplyplots_LDFLAGS =
+showoptimum_SOURCES = showoptimum.cpp
+showoptimum_LDFLAGS =
+generateparameters_SOURCES = generateparameters.cpp
+generateparameters_LDFLAGS =
+parse_tempo2_par_SOURCES = parse_tempo2_par.cpp
+parse_tempo2_par_LDFLAGS =
+processensembleresults1d_SOURCES = processensembleresults1d.cpp
+processensembleresults1d_LDFLAGS =

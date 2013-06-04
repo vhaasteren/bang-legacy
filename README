@@ -1,0 +1,42 @@
+This is the README file for BAN (Bayesian ANalysis for Pulsar Timing).
+BAN calculates the Bayesian posterior distribution, and Bayesian evidence,
+for PTA analysis models.
+
+
+  Copyright (C) 2005 - 2008 Rutger van Haasteren
+
+  Copying and distribution of this file, with or without modification,
+  are permitted in any medium without royalty provided the copyright
+  notice and this notice are preserved.
+
+See the files ./INSTALL* for building and installation instructions. (Only for
+full version, not yet available in public version)
+
+Primary distribution point: http://strw.leidenuniv.nl/~haasteren/
+ (list of mirrors: http://strw.leidenuniv.nl/~haasteren/)
+
+Home page: http://strw.leidenuniv.nl/~haasteren/
+ (list of mirrors: http://strw.leidenuniv.nl/~haasteren/)
+
+E-Mail address: haasteren@strw.leidenuniv.nl
+- please use this list for all discussion: bug reports, enhancements, etc.
+- there is no corresponding newsgroup.
+
+Bug reports:
+ Please include enough information for the maintainers to reproduce the
+ problem.  Generally speaking, that means:
+- the contents of any input files necessary to reproduce the bug
+  and command line invocations of the program(s) involved (crucial!).
+- a description of the problem and any samples of the erroneous output.
+- the version number of the program(s) involved (use --version).
+- hardware, operating system, and compiler versions (uname -a).
+- unusual options you gave to configure, if any (see config.status).
+- anything else that you think would be helpful.
+
+Patches are most welcome; if possible, please make them with diff -c and
+include ChangeLog entries.
+
+
+BAN is free software.  See the file COPYING for copying conditions.
+
+

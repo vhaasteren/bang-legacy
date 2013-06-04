@@ -1,0 +1,301 @@
+2012-01-06  Rutger van Haasteren <vhaasteren@gmail.com>
+
+	* Version: 0.1
+
+	* Changed: Lots. Obviously this file has not been updated regularly...
+
+	* Changed: now the bang-legacy code interacts with the bang python code
+
+	* Added: HDF5 integration
+
+2009-03-03  Rutger van Haasteren <haasteren@strw.leidenuniv.nl>
+
+	* Version: 0.40
+
+	* Changed: Focus of the code will now be on plug-in
+
+	* Added: iugui version of tempo2 plug-in
+
+	* Changed: Configure scripts
+
+	* Added: GW memory sources
+
+	* Changed: Error-bar parameter handling (EFAC). Now squared
+
+	* Changed: Representation of which parameters to plot
+
+	* Added: Dynamic plotting
+
+	* Added: plk integration
+
+	* Fixed: MCMC algorithm didn't store non-accepted points in one case
+
+	* Fixed: MCMC algorithm stored burn-in points in one case
+
+	* Fixed: Added the normalisation (2PI) constants back to the likelihood
+
+	* Fixed: Removed double application of prior
+
+	* Fixed: Bug in the evaluation of prior in MPI version
+
+	* Added: Priors for fitting parameters (not for marginalisations...)
+
+	* Added: Model adjustment in gui
+
+	* Added: Evidence calculation
+
+	* Changed: White noise: no correlation even between obs at same time
+
+	* Added: Calculation of sigma_z statistic
+
+	* Changed: Name of files, anholm -> freq
+
+	* Fixed: Bug in SetCoherenceMatrix: wrong index. BIG BUG!
+
+2008-12-28  Rutger van Haasteren <haasteren@strw.leidenuniv.nl>
+
+	* Version: 0.30
+
+	* Changed: Major changes to the source code/design
+
+	* Added: Full MPI version of 1Dplot and mcmc functions
+
+	* Added: Full support for deterministic source fitting
+
+	* Changed: Format of MCMC-data files
+
+	* Added: In process snapshots of MCMC-data files (data safety)
+
+	* Changed: Default locations of datadir & parameters.conf
+
+	* Added: More detailed documentation
+
+	* Added: Ability to select which parameters to integrate
+
+2008-10-29  Rutger van Haasteren <haasteren@strw.leidenuniv.nl>
+
+	* Version: 0.20
+
+	* Added: MPI support
+
+	* Added: Getop/Longopt functionality
+
+	* Added: More universal representation of parmameters
+
+	* Changed: Features are in a different branch
+
+2008-10-09  Rutger van Haasteren <haasteren@strw.leidenuniv.nl>
+
+	* Version: 0.10
+
+	* Changed: Name of the project (ban)
+
+	* Added: Bazaar VCS management
+
+	* Changed: Using gfortran the code can be linked with FORTRAN
+
+	* Changed: Using compiler g++ (default version) again
+
+2008-09-17  Rutger van Haasteren <haasteren@strw.leidenuniv.nl>
+
+	* Version: 0.94
+
+	* Fixed: SI units really work now
+
+	* Added: Several features of the Anholm algorithm (lssa)
+
+	* Added: Lomb-scargle lssa algorithm (slow version)
+
+	* Added: Lorentzian prior distribution for use in mcmc
+
+	* Changed: GNU configure script first searches for g++34
+
+	* Added: Started transition to gnuplot instead of pgplot
+
+	* Changed: g++34 not necessary if linked with gfortran (for cosmomc)
+
+2008-04-04  Rutger van Haasteren <haasteren@strw.leidenuniv.nl>
+
+	* Version: 0.93
+
+	* Changed: Generation of residuals now subtracts the best quadratic fit
+
+	* Changed: Residuals datafile drastically reduced (no parameter info)
+
+	* Added: The first part of the tempo2 plugin feature (not completed)
+
+	* Changed: The autotools setup, to allow for shared library building
+
+	* Fixed: Bug in GSL eigenvector routine (linal)
+
+	* Changed: All the tools now also compile within the same project
+
+	* Changed: All scripts moved to ./scripts/
+
+	* Added: Ability to plot the pulsar correlations
+
+	* Added: Option to allow for uneven sampling
+
+	* Added: Errorbars on individual measurements
+
+	* Changed: Most units (except GWB parameters) are now SI units
+
+2008-03-31  Rutger van Haasteren  <haasteren@strw.leidenuniv.nl>
+
+	* Version: 0.92
+
+	* Fixed: Bug in tempo2 parsing
+
+	* Changed: Definition of \alpha now matches Jenet et al. (2005)
+
+	* Changed: Definition of A (GWB) now matches Jenet et al. (2005)
+
+	* Added: Ability to plot the actual residuals
+
+2008-03-30  Rutger van Haasteren  <haasteren@strw.leidenuniv.nl>
+
+	* Version: 0.91
+
+	* Added: Ability to parse tempo2 residual and parameter files
+
+2008-03-05  Rutger van Haasteren  <haasteren@strw.leidenuniv.nl>
+
+	* Version: 0.90
+
+	* Fixed: bug in SimpleX algorithm. VectorToParameters
+
+	* Fixed: bug in Powell algorithm. Eigenvalue correction
+
+	* Fixed: bug in conversion of units. Now consistent with Jenet
+
+2008-02-29  Rutger van Haasteren  <haasteren@strw.leidenuniv.nl>
+
+	* Version: 0.89
+
+	* Added: (out-commented) ability to use very fast white only computations
+
+	* Added: Jenet et al. algorithm (without filters)
+
+	* Added: function to calculate the signal to noise
+
+	* Added: scripts to perform parameter studies (not part of pta)
+
+2008-01-21  Rutger van Haasteren  <haasteren@strw.leidenuniv.nl>
+
+	* Version: 0.85
+	
+	* Complete rewrite of the parameters-file and parsing
+
+2008-01-03  Rutger van Haasteren  <haasteren@strw.leidenuniv.nl>
+
+	* Version: 0.84
+	
+	* Added: ability to select pulsar noise profile
+
+2007-12-18  Rutger van Haasteren  <haasteren@strw.leidenuniv.nl>
+
+	* Release: 0.83
+	
+	* Added: ability to select workdata-dir to enable effective scripting
+
+2007-12-17  Rutger van Haasteren  <haasteren@strw.leidenuniv.nl>
+
+	* Version: 0.82
+	
+	* Added: some extra functionality, like loading of eigenvalues/vectors
+
+2007-12-15  Rutger van Haasteren  <haasteren@strw.leidenuniv.nl>
+
+	* Version: 0.81
+	
+	* Changed: the pulsar noise to the realistic 1/(1+x^2) type
+
+2007-11-11  Rutger van Haasteren  <haasteren@strw.leidenuniv.nl>
+
+	* Version: 0.80
+	
+	* Added: the Powell's method (using linear Brent) algorithms
+
+2007-11-10  Rutger van Haasteren  <haasteren@strw.leidenuniv.nl>
+
+	* Version: 0.79
+	
+	* Added: the quadratic fisher matrix estimation method, with the SimpleX method.
+
+2007-08-25  Rutger van Haasteren  <haasteren@strw.leidenuniv.nl>
+
+	* Version: 0.73-8
+	
+	* Added: various corrections to the code, including a different pulsar noise profile.
+
+2007-08-24  Rutger van Haasteren  <haasteren@strw.leidenuniv.nl>
+
+	* Version: 0.72
+	
+	* Added: Option to select whether to use ncurses or not
+
+2007-08-23  Rutger van Haasteren  <haasteren@strw.leidenuniv.nl>
+
+	* Version: 0.71
+	
+	* Added: possibility to change the order of the QSD removal
+
+2007-08-22  Rutger van Haasteren  <haasteren@strw.leidenuniv.nl>
+
+	* Version: 0.7
+	
+	* Added: options to integrate GWB and PN parameters.
+	
+	* Fixed: Wrong indexing in integration
+
+2007-08-21  Rutger van Haasteren  <haasteren@strw.leidenuniv.nl>
+
+	* Version: 0.65
+	
+	* Cleaned code
+
+2007-08-20  Rutger van Haasteren  <haasteren@strw.leidenuniv.nl>
+
+	* Version: 0.6
+	
+	* Changed: white noise to colored noise calculations
+
+2007-08-19  Rutger van Haasteren  <haasteren@strw.leidenuniv.nl>
+
+	* Version: 0.5
+	
+	* Added: the intel MKL library, and properly select the libraries
+
+	* Added:  Ability to select libraries
+	
+	* Added: Ability to select options on start, like generating data and integrating the mcmc data
+
+	* Fixed: Project fully builds
+
+	* Fixed: White pulsar noises are working
+
+	* Added: versioning
+
+2007-08-15  Rutger van Haasteren  <haasteren@strw.leidenuniv.nl>
+
+	* Added: Merger has been completed and licenses have been added. Major restructuring initiated.
+
+2007-08-08  Rutger van Haasteren  <haasteren@strw.leidenuniv.nl>
+
+	* Changed: Project has been fully merged with the orginal 'pta' program
+
+2007-08-06  Rutger van Haasteren  <haasteren@strw.leidenuniv.nl>
+
+	* Changed: Merger started with orginal 'pta' program
+
+2007-05-19  Rutger van Haasteren  <haasteren@strw.leidenuniv.nl>
+
+	* Changed: Project has been built for the first time!
+
+
+Local Variables:
+mode: change-log
+left-margin: 8
+fill-column: 76
+version-control: never
+End:
