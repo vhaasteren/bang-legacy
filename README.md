@@ -1,7 +1,10 @@
-This is the README file for BANG (Bayesian ANalysis).
-BANG calculates the Bayesian posterior distribution and evidence, for PTA
-analysis models.
+# bang-legacy #
 
+This is Rutger van Haasteren's Bayesian-inference code for pulsar timing array
+data analysis. It has been used for many publications, of which all of Rutger's
+PhD chapters. The code is definitely due for a re-write, but it is provided here
+in the hope that it will be useful. Up to date (June 2013) it is still being
+used for PTA analysis.
 
   Copyright (C) 2006 - 2013 Rutger van Haasteren
 
@@ -9,10 +12,9 @@ analysis models.
   are permitted in any medium without royalty provided the copyright
   notice and this notice are preserved.
 
-See the files ./INSTALL* for building and installation instructions. (Only for
-full version, not yet available in public version)
+See the files ./INSTALL* for building and installation instructions.
 
-E-Mail address: haasteren@strw.leidenuniv.nl
+E-Mail address: vhaasteren@gmail.com
 - please use this list for all discussion: bug reports, enhancements, etc.
 - there is no corresponding newsgroup.
 
@@ -29,7 +31,6 @@ Bug reports:
 
 Patches are most welcome; if possible, please make them with diff -c and
 include ChangeLog entries.
-
 
 BANG is free software.  See the file COPYING for copying conditions.
 
